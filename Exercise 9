@@ -1,0 +1,14 @@
+# Find all the odd numbers between 1 and 20. Append them to a string with spaces in between. Like so
+# Acoording to the given question
+#1). give a range from 1 to 20
+#2). condition for odd no.s
+#3). print the funtion in strngs with spaces
+
+odd-numbers = ""
+for i in range(0,21):
+    if i != 0:
+       odd_numbers = odd_numbers + " " + str(i)
+print(odd_numbers)
+
+# desiired output
+#dd_numbers = "1 3 5 7 9 11 13 15 17 19" 
